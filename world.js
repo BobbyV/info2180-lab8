@@ -6,6 +6,7 @@ returncallback();};
  
 $("lookup").observe('click', function(){
            var term= $('term').getValue();  
+           var checked = $all.checked;
            new Ajax.Request(
                "world.php",
               {
